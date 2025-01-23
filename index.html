@@ -6,58 +6,210 @@
     <link href="./output.css" rel="stylesheet" />
     <link
       rel="icon"
-      href="https://tal7aouy.gallerycdn.vsassets.io/extensions/tal7aouy/icons/3.8.0/1703110281439/Microsoft.VisualStudio.Services.Icons.Default"
+      href="./images/1.jpg"
       type="image/x-icon"
     />
-    <title>tailwind css practice</title>
+    <title>Portfolio tailwind css</title>
   </head>
   <body class="p-4">
-    <!-- <h1 class="text-3xl font-bold underline ">
-    Hello world!
-  </h1> -->
-    <div
-      class="flex flex-col gap-4 border-[5px] w-full h-dvh border-blue-500 rounded-xl p-4"
-    >
-      <div class="border-2 border-black rounded-md">
-        <h1>my car</h1>
-      </div>
-      <div class="border-2 border-black rounded-md">
-        <h1>Avishek Coder</h1>
-      </div>
+    <div class="main-container mx-[5%]">
+      <nav class="flex justify-between items-center h-[50px] p-2">
+        <h1
+          class="text-2xl font-semibold text-white hover:text-slate-500 cursor-pointer"
+        >
+          Avishek Shah
+        </h1>
+        <ul class="flex gap-5">
+          <li>
+            <a
+              href="#skil"
+              class="text-white hover:text-slate-500 hover:font-bold"
+              >Skills</a
+            >
+          </li>
+          <li>
+            <a href="#about" class="text-white hover:text-slate-500"
+              >About Me</a
+            >
+          </li>
+          <li>
+            <a href="#project" class="text-white hover:text-slate-500"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a href="#education" class="text-white hover:text-slate-500"
+              >Education</a
+            >
+          </li>
+          <li>
+            <a href="tel:9827387674" class="text-white hover:text-slate-500"
+              >9827387674</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <section class="hero-sec my-[40px] border-4 p-4">
+        <div class="flex">
+          <div class="w-full flex items-center rounded-full shadow-black">
+            <div class="profile">
+              <img
+                src="./images/profile image.jpg"
+                alt=""
+                class="h-[500px] w-[500px] object-cover object-top rounded-full"
+              />
+            </div>
+          </div>
+          <div class="w-full flex flex-col justify-center gap-4">
+            <h1 class="text-yellow-200 text-2xl font-bold leading-4">
+              Frontend React Developer
+            </h1>
+            <p class="text-white text-base font- leading-7">
+              Hi! I am Avishek, a skilled Frontend Developer specializing in
+              React.js with a Diploma in MERN Stack Development from Deerwalk
+              Training Center. I have hands-on experience building full-stack
+              applications using MongoDB, Express.js, React.js, and Node.js,
+              along with professional experience as a Junior Frontend Developer
+              at Delta Tech, where I developed responsive and user-friendly web
+              solutions. Proficient in tools like Formik, Yup, Axios, and React
+              Toastify, I am passionate about crafting impactful digital
+              experiences and continuously learning new technologies to enhance
+              my skills.
+            </p>
+            <div class="button">
+              <button class="bg-slate-700 p-3 text-cyan-50 rounded-xl">
+                Contact Me
+              </button>
+            </div>
+            <!-- <button class="bg-slate-700 w-9">Contact Me</button> -->
+          </div>
+        </div>
+      </section>
 
-      <section class="flex justify-between">
-        <div class="w-[50px]">
-          <img
-            src="https://tal7aouy.gallerycdn.vsassets.io/extensions/tal7aouy/icons/3.8.0/1703110281439/Microsoft.VisualStudio.Services.Icons.Default"
-            alt="react"
-            class="w-full h-full object-contain"
-          />
+      <section class="my-[100px]">
+        <div class="text-center my-8">
+          <h1 class="text-[#FAFFC5] text-3xl font-bold leading-4">
+            My Projects
+          </h1>
         </div>
-        <div class="w-[50px]">
-          <img
-            src="https://tal7aouy.gallerycdn.vsassets.io/extensions/tal7aouy/icons/3.8.0/1703110281439/Microsoft.VisualStudio.Services.Icons.Default"
-            alt="react"
-            class="w-full h-full object-contain"
-          />
-        </div>
-        <div class="w-[50px]">
-          <img
-            src="https://tal7aouy.gallerycdn.vsassets.io/extensions/tal7aouy/icons/3.8.0/1703110281439/Microsoft.VisualStudio.Services.Icons.Default"
-            alt="react"
-            class="w-full h-full object-contain"
-          />
-        </div>
-        <div class="w-[50px]">
-          <img
-            src="https://tal7aouy.gallerycdn.vsassets.io/extensions/tal7aouy/icons/3.8.0/1703110281439/Microsoft.VisualStudio.Services.Icons.Default"
-            alt="react"
-            class="w-full h-full object-contain"
-          />
+        <div class="grid grid-cols-3 gap-4">
+          <div class="bg-neutral-700 text-white rounded-xl p-4 h-[500px]">
+            <div class="image">
+              <img
+                src="https://projectsly.com/images/blog/best-project-design.png?v=1686553999071005322"
+                alt="project-1"
+                class="h-[300px] w-full object-cover rounded-xl"
+              />
+            </div>
+            <div class="text flex flex-col gap-4 my-[20px]">
+              <h1 class="text-2xl font-semibold text-[#FAFFC5]">Project One</h1>
+              <p class="text-white text-base font- leading-7">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                odit earum, facere delectus similique sit consectetur inventore
+                quam eos obcaecati.
+              </p>
+            </div>
+          </div>
+          <div class="bg-neutral-700 text-white rounded-xl p-4 h-[500px]">
+            <div class="image">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGTLRbTWRfBNDrM_EjJdWSWBWFR--v-C4YWJ5gvqK81ecB2JaKS455Mq0PC0o3mbcPQw4&usqp=CAU"
+                alt="project-2"
+                class="h-[300px] w-full object-cover rounded-xl"
+              />
+            </div>
+            <div class="text text flex flex-col gap-4 my-[20px]">
+              <h1 class="text-2xl font-semibold text-[#FAFFC5]">Project One</h1>
+              <p class="text-white text-base font- leading-7">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                odit earum, facere delectus similique sit consectetur inventore
+                quam eos obcaecati.
+              </p>
+            </div>
+          </div>
+          <div class="bg-neutral-700 text-white rounded-xl p-4 h-[500px]">
+            <div class="">
+              <img
+                src="https://www.projectaccelerator.co.uk/wp-content/uploads/2016/08/Project-Management.jpg"
+                alt="project-3"
+                class="h-[300px] w-full object-cover rounded-xl"
+              />
+            </div>
+            <div class="text text flex flex-col gap-4 my-[20px]">
+              <h1 class="text-2xl font-semibold text-[#FAFFC5]">Project One</h1>
+              <p class="text-white text-base font- leading-7">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                odit earum, facere delectus similique sit consectetur inventore
+                quam eos obcaecati.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       <section>
-        <h1>About</h1>
+        <div class="grid grid-cols-2 gap-3">
+          <div class="bg-slate-500 p-4 rounded-lg">
+            <h1
+              class="text-2xl font-semibold text-[#f4f9b7] mb-6 text-center underline"
+            >
+              Areas of Expertise
+            </h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <!-- Frontend Development -->
+              <div class="bg-slate-700 text-white shadow-md p-6 rounded-lg">
+                <h3 class="text-xl font-semibold mb-4">Frontend Development</h3>
+                <ul class="list-disc list-inside">
+                  <li>HTML5, CSS3, JavaScript (ES6+)</li>
+                  <li>Frameworks: React.js, Vue.js, or Angular</li>
+                  <li>Responsive Web Design (Tailwind CSS, Bootstrap)</li>
+                </ul>
+              </div>
+              <div class="bg-slate-700 text-white shadow-md p-6 rounded-lg">
+                <h3 class="text-xl font-semibold mb-4">Version Control</h3>
+                <ul class="list-disc list-inside">
+                  <li>Git, GitHub, GitLab</li>
+                </ul>
+              </div>
+            </div>
+            <!-- </div> -->
+          </div>
+
+
+          <div class="bg-slate-600 text-white p-4 rounded-lg">
+            <!-- <div class=""> -->
+            <h1
+              class="text-2xl font-semibold text-[#f4f9b7] mb-6 text-center underline"
+            >
+              Academic Background
+            </h1>
+            <div class="flex flex-col gap-6 text-center">
+              <div class="school">
+                <h2 class="text-xl font-semibold text-[#FAFFC5]">SEE 2018</h2>
+                <p class="">Koshi Vidya Mandir</p>
+              </div>
+              <div class="+2">
+                <h2 class="text-xl font-semibold text-[#FAFFC5]">
+                  +2 Management
+                </h2>
+                <p>Merryland College Biratnager</p>
+              </div>
+              <div class="bachelor">
+                <h2 class="text-xl font-semibold text-[#FAFFC5]">
+                  Bachelor In Information Management (BIM)
+                </h2>
+                <p>Niheehareka College Biratnager</p>
+                <p>Tribhuvan University</p>
+              </div>
+            </div>
+            <!-- </div> -->
+          </div>
+        </div>
       </section>
+      <footer>
+        <div class=" flex justify-center items-center h-[50px]  mt-[30px] bg-slate-700">
+          <p class="">&copy 2025 BY Avishek Shah - Developer Vrit Tech <span class="text-red-600">&hearts;</span> </p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
